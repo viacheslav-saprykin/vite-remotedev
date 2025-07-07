@@ -55,7 +55,6 @@ vite_devRemote/
 1. **Set the base path in `vite.config.ts`:**
    ```ts
    export default defineConfig({
-     // ...
      base: '/remote-dev/', 
    });
    ```
