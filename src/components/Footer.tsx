@@ -3,11 +3,11 @@ export default function Footer() {
     <footer className="footer">
       <small>
         <p>
-          © Copyright by{" "}
-          <a href="https://Viacheslav.com" target="_blank">
-            Viacheslav
+          © Copyright by{' '}
+          <a href="https://github.com/viacheslav-saprykin/vite-remotedev" target="_blank">
+            Made with ❤️
           </a>
-          . <br />  Good project!
+          . <br /> Good project!
         </p>
       </small>
 
