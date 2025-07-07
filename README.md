@@ -4,12 +4,6 @@ RemoteDEV is a modern web application for searching remote developer jobs, featu
 
 ---
 
-## 🚀 Demo
-
-👉 **Live Demo:** [RemoteDEV on GitHub Pages](https://viacheslav-saprykin.github.io/vite-remotedev)
-
----
-
 ## 🛠️ Tech Stack
 
 - **React 18** + **TypeScript**
@@ -65,22 +59,18 @@ vite_devRemote/
      base: '/remote-dev/', 
    });
    ```
-2. **Add homepage to `package.json`:**
-   ```json
-   "homepage": "https://viacheslav-saprykin.github.io/vite-remotedev/"
-   ```
-3. **Add deploy scripts to `package.json`:**
+2. **Add deploy scripts to `package.json`:**
    ```json
    "scripts": {
      "predeploy": "npm run build",
      "deploy": "gh-pages -d dist"
    }
    ```
-4. **Deploy:**
+3. **Deploy:**
    ```bash
    npm run deploy
    ```
-5. **Update the Demo link above with your deployed URL!**
+4. **Update the Demo link above with your deployed URL!**
 
 ---
 
@@ -105,9 +95,9 @@ vite_devRemote/
 
 ---
 
-## 📄 License
+## 🚀 Demo
 
-MIT
+👉 **Live Demo:** [RemoteDEV on GitHub Pages](https://viacheslav-saprykin.github.io/vite-remotedev)
 
 ---
 
