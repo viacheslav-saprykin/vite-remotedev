@@ -4,15 +4,9 @@ RemoteDEV is a modern web application for searching remote developer jobs, featu
 
 ---
 
-## 🚀 Features
+## 🚀 Demo
 
-- **Remote job search** by keyword (with debounce for better UX)
-- **Detailed job view**: company info, requirements, reviews, salary, and more
-- **Bookmarks**: add/remove jobs to favorites (persisted in LocalStorage)
-- **Sorting**: by relevance or by date
-- **Pagination**: easy navigation through results
-- **User Experience**: spinners, helpful hints, empty states, toast notifications for errors
-- **Responsive design** for all screen sizes
+👉 **Live Demo:** [RemoteDEV on GitHub Pages](https://viacheslav-saprykin.github.io/vite-remotedev)
 
 ---
 
@@ -62,6 +56,34 @@ vite_devRemote/
 
 ---
 
+## 🚀 Deploying to GitHub Pages
+
+1. **Set the base path in `vite.config.ts`:**
+   ```ts
+   export default defineConfig({
+     // ...
+     base: '/remote-dev/', 
+   });
+   ```
+2. **Add homepage to `package.json`:**
+   ```json
+   "homepage": "https://viacheslav-saprykin.github.io/vite-remotedev/"
+   ```
+3. **Add deploy scripts to `package.json`:**
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
+   }
+   ```
+4. **Deploy:**
+   ```bash
+   npm run deploy
+   ```
+5. **Update the Demo link above with your deployed URL!**
+
+---
+
 ## 🧪 Manual Test Cases
 
 - [ ] On first load: right panel shows a hint, left panel is empty.
@@ -80,6 +102,12 @@ vite_devRemote/
 - Add skeleton loading for job details
 - Add SSR/SSG (e.g., Next.js) for SEO
 - Add filters (job type, salary, etc.)
+
+---
+
+## 📄 License
+
+MIT
 
 ---
 
